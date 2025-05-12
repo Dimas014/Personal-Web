@@ -1,0 +1,71 @@
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bg-seagreen{
+    background-color: #00ADB5;
+}
+
+body{
+    background-color: #393E46;
+}
+
+.bg-darkerwhite{
+    background-color: #EEEEEE;
+}
+
+.bg-brown{
+    background-color: #E3CAA5;
+}
+
+.text-darkerwhite{
+    color : #EEEEEE;
+}
+
+.text-lessdarker{
+    color: #222831;
+}
+
+.height-col{
+  /* display: flex; */
+  height: 829.188px;
+}
+
+.height-div{
+  height: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .height-col{
+  /* display: flex; */
+  height: auto;
+}
+}
